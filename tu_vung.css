@@ -32,3 +32,17 @@ body
 	background: #0AE8DA	;
 	color: white;
 }
+#btn
+{
+	text-align: center;
+	margin: 40px 0;
+}
+#btn > a
+{
+	padding: 25px 45px;
+	text-decoration: none;
+	background: #0AE8DA;
+	color: red;
+	font-weight: bold;
+
+}
