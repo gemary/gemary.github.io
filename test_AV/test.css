@@ -21,6 +21,10 @@ body
     border: 2px solid rgb(68, 247, 247);
     margin-bottom: 0.2em;
 }
+input
+{
+    padding: 20px 90px;
+}
 #btn
 {
     text-align: center; 
