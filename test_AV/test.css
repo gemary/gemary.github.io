@@ -23,14 +23,15 @@ body
 }
 input
 {
-    padding: 20px 90px;
+    width: 20em;
+    height: 3em;
 }
 #btn
 {
     text-align: center; 
     
 }
-#submit
+.submit
 {
        
     font-weight: bold;  
