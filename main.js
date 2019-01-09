@@ -5,5 +5,6 @@ function MoveYes()
 }
 function EventbtnYes()
 {
-    
+    document.getElementById("demo").innerHTML ="Nếu cảm thấy mình bị ép buộc thì im luôn há Còn không thì Nói Mị 1 tiếng!";
+
 }
