@@ -3,8 +3,9 @@ body
     margin: 0;
     padding: 0;
     background-image: url(angrl.jpg);
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
+   
 
 }
 #btnYes
@@ -22,7 +23,7 @@ body
 {
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 55%;
     padding: 15px 50px;
     background-color: #ff0000;
     color: white;
@@ -32,5 +33,5 @@ body
 #title
 {
     text-align: center;
-    color: #ff0000;
+    color: #b83b3b;
 }
