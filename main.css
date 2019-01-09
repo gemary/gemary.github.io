@@ -5,6 +5,7 @@ body
     background-image: url(angrl.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
    
 
 }
@@ -38,7 +39,17 @@ body
 }
 #demo
 {
+    position: absolute;
+    bottom: 15%;
     text-align: center;
     color: #ff0000;
-    font-size: 55px;
+    font-size: 35px;
+}
+#demo1
+{
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    color: #ff0000;
+    font-size: 35px;
 }
