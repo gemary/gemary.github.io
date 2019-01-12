@@ -1,42 +1,67 @@
+*
+{
+    box-sizing: border-box;
+}
 body
 {
     margin: 0;
     padding: 0;
-    background-image: url(1.png);
-   background-size: cover;
-    background-repeat: no-repeat;
-
+    font-size: 90%;
+    background-color: white;
 }
-#btnYes
+.head
 {
-    position: absolute;
-    top: 40%;
-    left: 20%;
-    padding: 15px 50px;
-    background-color: #ff0000;
+    background-color: rgb(238, 230, 230);
+}
+.head h2
+{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+}
+.head h2:hover
+{
+    background-color: rgb(209, 153, 32);
     color: white;
-    font-weight: bold;
-    border-radius: 40px;
 }
-#btnNo
+.bpx 
 {
-    position: absolute;
-    top: 40%;
-    left: 60%;
-    padding: 15px 50px;
-    background-color: #ff0000;
+    float: right;
+    margin-right: 20px; 
+}
+.bpx h2
+{
+    padding: 20px;
+}
+.bpx h2:hover
+{
+    background-color: rgb(209, 153, 32);
+    padding: 20px;
     color: white;
-    font-weight: bold;
-    border-radius: 40px;
 }
-#title
+.main
 {
-    text-align: center;
-    color: #ff0000;
+    display: flex;
 }
-#demo
+.intro
 {
-    text-align: center;
-    color: #923e3e;
-    font-size: 30px;
+    flex: 50%;
+    margin-left: 20px;
+}
+.intro:hover
+{
+    background-color:  rgb(245, 245, 245);
+}
+.e
+{
+    flex: 50%;
+}
+.e:hover
+{
+    background-color:  rgb(245, 245, 245);
+}
+b:hover
+{
+    background-color: orange;
+    color: white;
 }
