@@ -35,7 +35,7 @@ async function detectAllLabeledFaces() {
       const descriptions = [];
       for (let i = 1; i <= 2; i++) {
         const img = await faceapi.fetchImage(
-          `http://127.0.0.1:5500/data/${label}/face${i}.jpg`
+          `https://gemary.github.io/data/${label}/face${i}.jpg`
         );
         const detection = await faceapi
           .detectSingleFace(img)
@@ -54,7 +54,7 @@ async function detectNancyFace() {
   const descriptions = [];
   for (let i = 1; i <= numberImage; i++) {
     const img = await faceapi.fetchImage(
-      `http://127.0.0.1:5500/data/phuong/face${i}.jpg`
+      `https://gemary.github.io/data/phuong/face${i}.jpg`
     );
     const detection = await faceapi
       .detectSingleFace(img)
